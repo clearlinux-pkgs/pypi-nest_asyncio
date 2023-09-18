@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-nest_asyncio
-Version  : 1.5.7
-Release  : 19
-URL      : https://files.pythonhosted.org/packages/80/d2/90252b1de3fcb9ac18acdf475bf0679a702e18df0f20df7d75ebe273db89/nest_asyncio-1.5.7.tar.gz
-Source0  : https://files.pythonhosted.org/packages/80/d2/90252b1de3fcb9ac18acdf475bf0679a702e18df0f20df7d75ebe273db89/nest_asyncio-1.5.7.tar.gz
+Version  : 1.5.8
+Release  : 20
+URL      : https://files.pythonhosted.org/packages/93/fd/4c3fa3f390d00f4c85d1102988d3fda588e8d45216998715bfa2f5caf411/nest_asyncio-1.5.8.tar.gz
+Source0  : https://files.pythonhosted.org/packages/93/fd/4c3fa3f390d00f4c85d1102988d3fda588e8d45216998715bfa2f5caf411/nest_asyncio-1.5.8.tar.gz
 Summary  : Patch asyncio to allow nested event loops
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -61,10 +61,10 @@ python3 components for the pypi-nest_asyncio package.
 
 
 %prep
-%setup -q -n nest_asyncio-1.5.7
-cd %{_builddir}/nest_asyncio-1.5.7
+%setup -q -n nest_asyncio-1.5.8
+cd %{_builddir}/nest_asyncio-1.5.8
 pushd ..
-cp -a nest_asyncio-1.5.7 buildavx2
+cp -a nest_asyncio-1.5.8 buildavx2
 popd
 
 %build
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690555555
+export SOURCE_DATE_EPOCH=1695063802
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

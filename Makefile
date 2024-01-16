@@ -1,5 +1,5 @@
 PKG_NAME := pypi-nest_asyncio
-URL = https://files.pythonhosted.org/packages/93/fd/4c3fa3f390d00f4c85d1102988d3fda588e8d45216998715bfa2f5caf411/nest_asyncio-1.5.8.tar.gz
+URL = https://files.pythonhosted.org/packages/12/39/d97da0edd33ae223e5f7cfdc2dfae016a0b5c3e2762ded7dc008d5bb1643/nest_asyncio-1.5.9.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

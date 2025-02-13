@@ -7,7 +7,7 @@
 #
 Name     : pypi-nest_asyncio
 Version  : 1.6.0
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/83/f8/51569ac65d696c8ecbee95938f89d4abf00f47d58d48f6fbabfe8f0baefe/nest_asyncio-1.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/83/f8/51569ac65d696c8ecbee95938f89d4abf00f47d58d48f6fbabfe8f0baefe/nest_asyncio-1.6.0.tar.gz
 Summary  : Patch asyncio to allow nested event loops
